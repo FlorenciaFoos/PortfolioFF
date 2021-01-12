@@ -1,0 +1,123 @@
+main{
+    padding: 2rem;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+    font-family: 'Yusei Magic', sans-serif;
+ 
+}
+
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+    font-size: 1.2rem;
+
+}
+
+
+h3{
+ 
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+ul{
+    list-style: square inside;
+    line-height: 2;
+}
+
+ .footer{
+    background-color: #f46741;
+    margin-top: 8rem;
+ }
+
+.footer-list {
+    align-items: center;
+	display: flex;
+    justify-content: space-around;
+	flex-direction: row;
+	list-style:none;
+ 
+	 
+	padding: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.footer-list-item {
+ 
+	cursor: pointer;
+}
+
+a,a:hover, a:focus{
+    text-decoration: none;
+    color: white
+}
+
+ 
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+
+.mb-6 {
+  margin-bottom: 8rem !important;
+}
+
+.color{
+    background-color: #ef624c;
+    color: white;
+    float: right;
+}
+
+.email, .email:hover,.email:active{
+    color: white;
+}
+
+.color:hover{
+    color: black;
+    background-color: violet;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-title{
+    font-weight: 600;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: violet;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgba(255, 77, 231, 0.5);
+}
+
+.close{
+    font-size: 2rem;
+    cursor: pointer;
+}
