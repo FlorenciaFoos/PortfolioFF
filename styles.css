@@ -73,6 +73,7 @@ a,a:hover, a:focus{
     position: relative;
     left: 0;
     top: 0;
+    background-color: #ef624c;
 }
 
 
@@ -93,7 +94,7 @@ a,a:hover, a:focus{
 
 .color:hover{
     color: black;
-    background-color: violet;
+    background-color: #ee82ee;
 }
 
 form{
