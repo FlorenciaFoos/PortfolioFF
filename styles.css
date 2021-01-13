@@ -1,146 +1,151 @@
-main{
+:root {
+    --color-detalles: #ee82ee;
+    --color-primario: #ef624c;
+}
+
+main {
     padding: 2rem;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-h1{
+h1 {
     font-family: 'Yusei Magic', sans-serif;
- 
 }
 
-
-h5{
-    font-family: 'Open Sans', sans-serif;
+h5 {
     font-size: 1.3rem;
 }
 
-h2{
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
     letter-spacing: 2px;
-     
-
 }
 
-
-h3{
- 
+h3 {
     font-size: 1.2rem;
     font-weight: 600;
+    background-color: var(--color-detalles);
 }
 
-ul{
+ul {
     list-style: square inside;
     line-height: 2;
 }
 
- .footer{
-    background-color: #f46741;
+.footer {
+    background-color: var(--color-primario);
     margin-top: 8rem;
- }
+}
 
 .footer-list {
     align-items: center;
-	display: flex;
+    display: flex;
     justify-content: space-around;
-	flex-direction: row;
-	list-style:none;
- 
+    flex-direction: row;
+    list-style: none;
     font-weight: 600;
-	padding: 20px;
-	margin-top: 0;
-	margin-bottom: 0;
-
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .footer-list-item {
     animation: all 2s;
-	cursor: pointer;
+    cursor: pointer;
 }
 
-.footer-list-item:hover{
+.footer-list-item:hover {
     transform: scale(1.2);
 }
 
-a,a:hover, a:focus{
+a,
+a:hover,
+a:focus {
     text-decoration: none;
     color: white
 }
-
- 
 
 .carousel-caption {
     position: relative;
     left: 0;
     top: 0;
-    background-color: #ef624c;
+    background-color: var(--color-primario);
 }
 
-
-
 .mb-6 {
-  margin-bottom: 8rem !important;
+    margin-bottom: 8rem !important;
 }
 
 .mt-6 {
     margin-top: 6rem !important;
-  }
+}
 
-.color{
-    background-color: #ef624c;
+.color {
+    background-color: var(--color-primario);
     color: white;
     float: right;
 }
 
-.email, .email:hover,.email:active{
+.email,
+.email:hover,
+.email:active {
     color: white;
     font-weight: 600;
     animation: all 2s;
 }
 
-.email:hover{
+.email:hover {
     transform: scale(1.2);
 }
 
-.color:hover{
+.color:hover {
     color: black;
-    background-color: #ee82ee;
+    background-color: var(--color-detalles);
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
 }
 
-.modal-title{
+.modal-title {
     font-weight: 600;
 }
 
-label{
+label {
     font-family: 'Montserrat', sans-serif;
 }
 
 .form-control:focus {
     color: #212529;
     background-color: #fff;
-    border-color: violet;
+    border-color: var(--color-detalles);
     outline: 0;
     box-shadow: 0 0 0 0.15rem rgba(255, 77, 231, 0.5);
 }
 
-.close{
+.close {
     font-size: 2rem;
     cursor: pointer;
 }
 
-.second-text{
+.second-text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: var(--color-detalles)
+}
+
+ ::selection {
+    background: var(--color-detalles)
 }
